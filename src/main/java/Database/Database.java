@@ -21,6 +21,8 @@ public class Database {
 
         DatabaseConnect();
 
+        //DatabaseQueryUtil.WriteToDB("Ford", "Transporter",2019, conn);
+
         ShowAllData();
 
         Disconnect();
@@ -70,7 +72,17 @@ public class Database {
     }
 
     //Prints everything to the console
-    private static void ShowAllData(){
+    private static void ShowAllData() {
+        /*
+        try{
+            DatabaseQueryUtil.ShowAll(conn);
+        } catch (SQLException e) {
+            System.out.println("Error: unable to show database!");
+        }
+
+         */
+
+
         Statement stmt = null;
 
         //Creates statement
