@@ -21,7 +21,7 @@ public class Database {
 
         DatabaseConnect();
 
-        //DatabaseQueryUtil.WriteToDB("Ford", "Transporter",2019, conn);
+        DatabaseQueryUtil.WriteToDB("Ford", "Transporter",2019, conn);
 
         ShowAllData();
 

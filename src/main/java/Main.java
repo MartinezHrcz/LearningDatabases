@@ -2,6 +2,12 @@ import Database.Database;
 
 import java.util.Scanner;
 
+    /*
+     TODO:
+     -CHECK IF DATA IS IN DB ALREADY
+     */
+
+
 public class Main {
     public static void main(String[] args) {
         Database.StartConnection();
